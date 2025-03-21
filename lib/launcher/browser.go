@@ -235,6 +235,7 @@ func LookPath() (found string, has bool) {
 			`Google\Chrome\Application\chrome.exe`,
 			`Chromium\Application\chrome.exe`,
 			`Microsoft\Edge\Application\msedge.exe`,
+			`Google\Chrome Dev\Application\chrome.exe`,
 		)...),
 	}[runtime.GOOS]
 
